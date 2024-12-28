@@ -1,1 +1,1 @@
-# I saved information idead in leet code
+# I saved information ideal in leet code
