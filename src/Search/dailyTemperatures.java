@@ -20,13 +20,8 @@ public class dailyTemperatures {
 	    			//đẩy vào stack vào stack
 	    			 stack.push(i);
 	    		   }
-
-					
-	    		   return result;
-
-					
-	    }
-	 
+	    		   return result;			
+	    } 
     public static void main(String[] args) {
          int[] temperatures = {73, 74, 75, 71, 69, 72, 76, 73};
          System.out.println(dailyTemperatures(temperatures));

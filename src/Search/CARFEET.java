@@ -18,7 +18,7 @@ public class CARFEET {
     	Arrays.sort(car,(a,b) -> b[0]- a[0]);
     	
         Stack<Double> stack = new Stack<>();
-
+        
         for(int i=0;i< n;i++) {
         	//calculator time to destination
         	double time = (double)(target - car[i][0])/car[i][1];
