@@ -11,7 +11,6 @@ public class TwoSum {
         	if(check.containsKey(remain)) {
         		return new int[] { check.get(remain),i};
         	}
-        	
         		  check.put(nums[i], i);
         }
         		  return new int[] {};
